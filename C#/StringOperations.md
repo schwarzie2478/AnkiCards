@@ -11,6 +11,6 @@ You can use a stringbuilder to do string operations. This class has an insert fu
 The most straightforward solution to convert to a chararray.  
 But this doesn't work well when dealing with special characters in other languages!  
 There you need to split the string with the following method:   
-```CSharp
+```language
     var graphemes = StringInfo.GetTextElementEnumerator(str);
 ```
